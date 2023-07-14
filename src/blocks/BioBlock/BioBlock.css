@@ -1,0 +1,97 @@
+.background-display {
+    display: flex;
+    flex-direction: row;
+    height: 900px;
+}
+.background-black {
+    background-color: #000000;
+    width: 38%;
+    height: 100%;
+}
+.bio-photo {
+    width: 750px;
+    height: 650px;
+    position: relative;
+    top: 150px;
+}
+.background-blue {
+    background-color: #181823;
+    width: 62%;
+    height: 100%;
+}
+.bio-title {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 738px;
+    position: relative;
+    top: 250px;
+}
+.bio-title-1 {
+    font-size: 78px;
+    line-height: 93.84px;
+    font-weight: 700;
+    color: white;
+}
+.bio-title-2 {
+    font-size: 18px;
+    color: white;
+    line-height: 27px;
+}
+
+@media screen and (max-width: 800px) {
+    .background-display {
+        height: 600px;
+    }
+    .bio-photo {
+        width: 450px;
+        height: 350px;
+    }
+    .bio-title-1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .bio-title-2 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .bio-title {
+        top: 190px;
+        gap: 25px;
+        opacity: 0.5;
+    }
+    .bio-title-1 {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .bio-title {
+        position: absolute;
+        left: 40px;
+        padding-right: 40px;
+    }
+    .bio-title-1 {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .background-display {
+        height: 450px;
+    }
+    .bio-photo {
+        width: 350px;
+        height: 250px;
+        top: 115px;
+    }
+    .bio-title {
+        top: 140px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .bio-title-1 {
+        font-size: 30px;
+        line-height: 42px;
+    }
+}

@@ -1,0 +1,38 @@
+.SitesBlock {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+}
+.site-item {
+    width: calc(100% / 4);
+    height: 100%;
+    border: 1px solid #181823;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.site-item:first-child {
+    border-left: none;
+}
+.site-item:last-child {
+    border-right: none;
+}
+.site-item svg path {
+    fill: #8491A0;
+    transition: all 0.3s;
+}
+.site-item:hover svg path {
+    fill: #5221E6;
+}
+@media screen and (max-width: 650px) {
+    .SitesBlock {
+        height: 90px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .site-item svg {
+        height: 25%;
+    }
+}

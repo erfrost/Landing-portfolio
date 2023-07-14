@@ -1,0 +1,9 @@
+.burger {
+    padding-right: 40px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.burger:active {
+    width: 45px;
+    height: 45px;
+}

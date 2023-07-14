@@ -1,0 +1,14 @@
+.PeopleSayBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 100px 55px 100px 55px;
+}
+
+@media screen and (max-width: 1400px) {
+    .PeopleSayBlock {
+        padding-top: 0;
+        flex-direction: column;
+    }
+}

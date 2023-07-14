@@ -1,0 +1,30 @@
+.title-container {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+.title1 {
+    color: white;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 66px;
+}
+.title2 { 
+    color: #8491A0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+@media screen and (max-width: 650px) {
+    .title-container {
+        max-width: none;
+    }
+}
+@media screen and (max-width: 500px) {
+    .title-container {
+        gap: 15px;
+    }
+}

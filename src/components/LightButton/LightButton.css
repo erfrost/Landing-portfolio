@@ -1,0 +1,9 @@
+.philosofy-btn {
+    color: #181823;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #8491A0;
+    cursor: pointer;
+}

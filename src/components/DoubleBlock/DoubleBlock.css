@@ -1,0 +1,62 @@
+.PhilosofyBlock {
+    display: flex;
+    flex-direction: row;
+}
+.philosofy-content {
+    background-color: #FFF3E4;
+    padding: 100px 55px 100px 55px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.philosofy-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+.philosofy-title-1 {
+    color: #181823;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 66px;
+}
+.philosofy-title-2 {
+    color: #5B6876;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+.philosofy-img{
+    width: 50%;
+}
+
+@media screen and (max-width: 750px) {
+    .philosofy-content {
+        padding: 75px 30px 75px 30px;
+        gap: 15px;
+    }
+    .philosofy-title-1 {
+        font-size: 40px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .philosofy-title-2 {
+        font-size: 16px;
+        line-height: 21px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .PhilosofyBlock {
+        flex-direction: column;
+    }
+    .philosofy-content {
+        width: auto;
+        padding: 85px 55px 85px 55px;
+    }
+    .philosofy-img {
+        width: auto;
+    }
+}

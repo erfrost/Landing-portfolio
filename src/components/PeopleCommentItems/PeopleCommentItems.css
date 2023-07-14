@@ -1,0 +1,75 @@
+.peopleCommentItem {
+    display: flex;
+    flex-direction: column;
+}
+.column-peoples {
+    max-width: 50%;
+    gap: 40px;
+}
+.comment-content {
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    border-left: 1px solid #5B6876;
+    border-bottom: 1px solid #5B6876;
+    border-right: 1px solid #5B6876;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.comment-image {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.comment-1 {
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+.comment-autor {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+.autor-name {
+    color: #5B6876;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+}
+.autor-company {
+    color: #5B6876;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+@media screen and (max-width: 1400px) {
+    .column-peoples {
+        width: auto !important;
+        max-width: none !important;
+    }
+    .comment-image {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .comment-content {
+        padding: 40px;
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 430px) {
+    .comment-1 {
+        font-size: 19px;
+        line-height: 26px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .comment-content {
+        padding: 15px;
+    }
+}
